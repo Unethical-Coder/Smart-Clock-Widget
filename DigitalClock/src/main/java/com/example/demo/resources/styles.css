@@ -1,0 +1,33 @@
+/* Set the font for all labels */
+label {
+  font-family: Verdana, sans-serif;
+}
+
+/* Style the time label */
+#timeLabel {
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Style the day label */
+#dayLabel {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Style the weather label */
+#weatherLabel {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Set the background image */
+.vbox {
+  -fx-background-image: url('imgs/morning.jpg');
+  background-image: url('imgs/morning.jpg');
+  -fx-background-size: cover;
+  background-size: cover; /* for compatibility */
+}
